@@ -20,6 +20,10 @@ body{
     padding-right: 4.7%;
 }
 
+.logo{
+    width: 70px;
+}
+
 .ad{
     height: 10%;
 }
@@ -33,6 +37,7 @@ body{
     border-radius: 25px;
     padding-left: 10%;
     font-size: medium;
+    width: 200px;
 }
 
 .join{
