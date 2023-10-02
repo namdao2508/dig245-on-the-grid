@@ -1,14 +1,75 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- meta tags, links to css, etc. -->
+  <head>
     <meta charset="utf-8">
-    <title>DIG 245 On the Grid</title>
-</head>
-<body>
-
-    <!-- visible content goes here -->
-    <h1>DIG 245 On the Grid</h1>
-
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>On The Grid</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-light text-center d-none d-lg-block">
+        <div class="row justify-content-end header align-items-center">
+            <div class="col-lg-auto border-black border-end">Find a Store</div>
+            <div class="col-lg-auto border-black border-end">Help</div>
+            <div class="col-lg-auto border-black border-end">Join Us</div>
+            <div class="col-lg-auto last">Sign In</div>
+        </div>
+    </div>
+    <div class="container-fluid bg-white text-center">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-auto d-none d-lg-block products">New & Featured</div>
+            <div class="col-lg-auto d-none d-lg-block products">Men</div>
+            <div class="col-lg-auto d-none d-lg-block products">Women</div>
+            <div class="col-lg-auto d-none d-lg-block products">Kids</div>
+            <div class="col-lg-auto d-none d-lg-block products">Accessories</div>
+            <div class="col-lg-auto d-none d-lg-block products">Sale</div>
+            <div class="col-lg-auto d-none d-lg-block">
+                <form action="/search" method="get">
+                    <input type="text" name="q" placeholder="Search" class="roundedBlock bg-light">
+                </form>
+            </div>
+            <div class="col-auto d-block d-lg-none">
+                <img src="assets/img/search bar.png" alt="search bar" class="sideLogo">
+            </div>
+            <div class="col-auto d-block">
+                <img src="assets/img/shipping.png" alt="bag" class="sideLogo">
+            </div>
+            <div class="col-auto d-block d-lg-none">
+                <img src="assets/img/user.png" alt="user" class="sideLogo">
+            </div>
+            <div class="col-auto d-block last">
+                <img src="assets/img/content.png" alt="content" class="sideLogo">
+            </div>
+        </div>
+    </div> 
+    <div class="container-fluid bg-light text-center d-block ad">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4">Members: Free Shipping on Orders $50+</div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-2 join btn">Join Now</div>
+        </div>
+    </div>
+    <div class="container-fluid d-block">
+        <img src="assets/img/Main.png" alt="Main Image" class="img-fluid mx-auto d-none d-md-block">
+        <img src="assets/img/Secondary.png" alt="Secondary Image" class="img-fluid mx-auto d-block d-md-none">
+    </div> 
+    <div class="container-fluid bg-white text-center d-block">
+        <div class="row justify-content-start text-start ">
+            <div class="BOLD">New for Fall</div>
+        </div>
+        <div class="row justify-content-start text-start">
+            <div class="NORM">All the latest & greatest shoes and styles</div>
+        </div>
+        <div class="row justify-content-start">
+            <button type="button" class="btn btn-dark shopButton">Shop</button>
+        </div>
+    </div>
+    <div class="container-fluid d-block">
+        <img src="assets/img/One.png" alt="Product One" class="IMG float-start">
+        <img src="assets/img/Two.png" alt="Secondary Two" class="IMG float-end">
+    </div> 
+  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </html>

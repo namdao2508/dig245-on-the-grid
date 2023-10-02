@@ -1,2 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* css */
+.header{
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-size: smaller;
+    color: black;
+}
+
+.products{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: medium;
+    color: black;
+}
+
+.last{
+    padding-right: 4.7%;
+}
+
+.ad{
+    height: 10%;
+}
+
+.sideLogo{
+    padding-top: 20%;
+}
+
+.roundedBlock{
+    border: 1px white;
+    border-radius: 25px;
+    padding-left: 10%;
+    font-size: medium;
+}
+
+.join{
+    font-size: smaller;
+    text-decoration: underline;
+}
+
+.BOLD{
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.flexContainer{
+    display: flex;
+}
+
+.IMG{
+    width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .IMG {
+        width: 100%; 
+    }
+}
+
+@media (min-width: 993px) {
+    .IMG {
+        width: 50%; 
+    }
+}
+
+.shopButton{
+    width: auto;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
